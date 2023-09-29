@@ -18,3 +18,9 @@ github:
         # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
         addComment: false
 
+additionalRepositories:
+    - url: https://github.com/enachb/AutoGPT-trading.git
+      # checkoutLocation is relative to /workspaces
+      checkoutLocation: autogpt-trading
+
+workspaceLocation: trade-chat/main.code-workspace # Relative to /workspace dir
